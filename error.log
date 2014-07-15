@@ -1,0 +1,242 @@
+Traceback (most recent call last):
+  File "./main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 105, in run
+    print msg
+NameError: global name 'msg' is not defined
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 105, in run
+    print msg
+NameError: global name 'msg' is not defined
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 105, in run
+    def _channel_monitor(self):
+NameError: global name 'msg' is not defined
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 101, in run
+    print msg
+NameError: global name 'msg' is not defined
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 101, in run
+    print msg
+NameError: global name 'msg' is not defined
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 50, in run
+    self.ami.catch_event("Dial","GSMStat")
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1199, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1489, in __request
+    verbose=self.__verbose
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1237, in request
+    errcode, errmsg, headers = h.getreply()
+  File "/usr/lib64/python2.6/httplib.py", line 1064, in getreply
+    response = self._conn.getresponse()
+  File "/usr/lib64/python2.6/httplib.py", line 990, in getresponse
+    response.begin()
+  File "/usr/lib64/python2.6/httplib.py", line 391, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python2.6/httplib.py", line 349, in _read_status
+    line = self.fp.readline()
+  File "/usr/lib64/python2.6/socket.py", line 433, in readline
+    data = recv(1)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 50, in run
+    self.ami.catch_event("Dial","GSMStat")
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1199, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1489, in __request
+    verbose=self.__verbose
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1235, in request
+    self.send_content(h, request_body)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1349, in send_content
+    connection.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 908, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 780, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 739, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 720, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 567, in create_connection
+    raise error, msg
+error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 50, in run
+    self.ami.catch_event("Dial","GSMStat")
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1199, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1489, in __request
+    verbose=self.__verbose
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1235, in request
+    self.send_content(h, request_body)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1349, in send_content
+    connection.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 908, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 780, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 739, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 720, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 567, in create_connection
+    raise error, msg
+error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 101, in run
+    print msg
+NameError: global name 'msg' is not defined
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 50, in run
+    self.ami.catch_event("Dial","GSMStat")
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1199, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1489, in __request
+    verbose=self.__verbose
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1237, in request
+    errcode, errmsg, headers = h.getreply()
+  File "/usr/lib64/python2.6/httplib.py", line 1064, in getreply
+    response = self._conn.getresponse()
+  File "/usr/lib64/python2.6/httplib.py", line 990, in getresponse
+    response.begin()
+  File "/usr/lib64/python2.6/httplib.py", line 391, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python2.6/httplib.py", line 349, in _read_status
+    line = self.fp.readline()
+  File "/usr/lib64/python2.6/socket.py", line 433, in readline
+    data = recv(1)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 50, in run
+    self.ami.catch_event("Dial","GSMStat")
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1199, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1489, in __request
+    verbose=self.__verbose
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1235, in request
+    self.send_content(h, request_body)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1349, in send_content
+    connection.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 908, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 780, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 739, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 720, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 567, in create_connection
+    raise error, msg
+error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 50, in run
+    self.ami.catch_event("Dial","GSMStat")
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1199, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1489, in __request
+    verbose=self.__verbose
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1235, in request
+    self.send_content(h, request_body)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1349, in send_content
+    connection.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 908, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 780, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 739, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 720, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 567, in create_connection
+    raise error, msg
+error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 50, in run
+    self.ami.catch_event("Dial","GSMStat")
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1199, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1489, in __request
+    verbose=self.__verbose
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1235, in request
+    self.send_content(h, request_body)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1349, in send_content
+    connection.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 908, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 780, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 739, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 720, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 567, in create_connection
+    raise error, msg
+error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 50, in run
+    self.ami.catch_event("Dial","GSMStat")
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1199, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1489, in __request
+    verbose=self.__verbose
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1235, in request
+    self.send_content(h, request_body)
+  File "/usr/lib64/python2.6/xmlrpclib.py", line 1349, in send_content
+    connection.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 908, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 780, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 739, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 720, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 567, in create_connection
+    raise error, msg
+error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 101, in run
+    print msg
+NameError: global name 'msg' is not defined
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 101, in run
+    print msg
+NameError: global name 'msg' is not defined
+Traceback (most recent call last):
+  File "/usr/local/bin/gsmstat/main.py", line 10, in <module>
+    gsmstat.run()
+  File "/usr/local/bin/gsmstat/GSMStat.py", line 101, in run
+    print msg
+NameError: global name 'msg' is not defined
